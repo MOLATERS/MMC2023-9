@@ -71,6 +71,7 @@ Solvevalue_1([0],0)
 solved = fsolve(Solvevalue_1,[0],args=0)
 print(solved)
 print(Calculate_lines_1(solved[0]))
+plt.figure(figsize=(10,5))
 plt.plot(line_positions)
 
 line_positions=[0]
@@ -78,4 +79,5 @@ Solvevalue_2([0],L)
 solved = fsolve(Solvevalue_2,[0],args=L)
 print(solved)
 print(Calculate_lines_2(solved[0]))
+plt.figure(figsize=(10,5))
 plt.plot(line_positions)
