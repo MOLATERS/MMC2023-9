@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from Q3_basic_math import calculate_Wn_1
+from Q3_BasicMath import calculate_Wn_1
 from math import *
 from scipy.optimize import fsolve
 

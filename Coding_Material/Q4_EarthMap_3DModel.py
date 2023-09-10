@@ -33,9 +33,9 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.plot_surface(x, y, z,linewidth=0, antialiased=False,shade =True, alpha = 0.5,facecolors=color)
 # 设置坐标轴标签
-ax.set_xlabel('$x$')
-ax.set_ylabel('$y$')
-ax.set_zlabel('Depth')
+ax.set_xlabel('$x(m)$')
+ax.set_ylabel('$y(m)$')
+ax.set_zlabel('$Depth(m)$')
 
 # 显示图形
 plt.show()
