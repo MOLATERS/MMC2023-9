@@ -11,16 +11,6 @@
 
 > 中心点的定义
 
-$$
-W_n = (x_n+y_n)cos\alpha\\
-\left \{
-\begin{aligned}
-x_n=\frac{sin(\frac{\theta}{2})}{sin(\frac{\pi-\theta}{2}-\alpha)}D_n \\
-y_n=\frac{sin(\frac{\theta}{2})}{sin(\frac{\pi-\theta}{2}+\alpha)}D_n
-\end{aligned}
-\right .
-$$
-
 ## B题问题3描述
 
 在一个2NM * 4NM的海域中找到一个能够覆盖全部海域且路径最短的方法，且满足重复率在10%~20%之间
